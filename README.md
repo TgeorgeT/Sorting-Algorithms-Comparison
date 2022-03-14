@@ -1,3 +1,16 @@
+## Sortings time comparison
+Project done by Teodorescu George-Tiberiu, group 132
+
+## Sorting algorithms used:
+-STL Sort
+-Radix Sort (Base 10)
+-Radix Sort (Base 2^8)
+-Radix Sort (Base 2^16)
+-Merge Sort
+-Shell Sort (using the original sequence proposed by Shell)
+-Shell sort (using a custom sequence)
+-Quick sort (using median of three)
+-Heap sort
 
 
 
