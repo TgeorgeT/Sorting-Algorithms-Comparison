@@ -8,7 +8,7 @@
 using namespace std;
 
 ifstream in("input.txt");
-ofstream out("output.csv");
+ofstream out("output3.csv");
 
 vector<long long> generateNumbers(int &n, long long &maxim) {
     in >> n >> maxim;
@@ -38,7 +38,7 @@ void countSort(vector<long long> &v, vector<long long> &output, int n, long long
 
 void radixSort(vector<long long> &v, int n, long long maxim) {
     vector <long long> output(n);
-    for (int exp = 1; maxim / exp > 0; exp *= 10)
+    for (long long exp = 1; maxim / exp > 0; exp *= 10)
         countSort(v, output, n, exp);
 
 }
@@ -59,7 +59,7 @@ auto timeRadixSort(vector<long long>&verif,vector<long long>&v,int n,long long m
     auto stop = chrono::high_resolution_clock::now();
     if(verificare(verif,copie,n)==0)
     {
-        cout<<"eroare";
+        cout<<"eroareRadixSort";
         exit(1);
     }
     auto duration = chrono::duration_cast<chrono::microseconds >(stop-start);
@@ -97,7 +97,7 @@ auto timeRadixSortB2(vector<long long>&verif,vector<long long>&v,int n,long long
     auto stop = chrono::high_resolution_clock::now();
     if(verificare(verif,copie,n)==0)
     {
-        cout<<"eroare";
+        cout<<"eroareRadixB2";
         exit(1);
     }
     auto duration = chrono::duration_cast<chrono::microseconds >(stop-start);
@@ -145,7 +145,7 @@ auto timeMergeSort(vector<long long>&verif,vector<long long>&v,int n,long long m
     auto stop = chrono::high_resolution_clock::now();
     if(verificare(verif,copie,n)==0)
     {
-        cout<<"eroare";
+        cout<<"eroareMergeSort";
         exit(1);
     }
     auto duration = chrono::duration_cast<chrono::microseconds >(stop-start);
@@ -158,7 +158,7 @@ vector<long long> gaps = {  89766, 40803, 18315,8124,3611,1605,701, 301, 132, 57
 
 void shellSortCustom(vector<long long> &v, int n )
 {
-    int i,j,offset,temp;
+    long long i,j,offset,temp;
     for(long long gap:gaps)
         for( offset=0;offset<gap;offset++)
             for( i=offset;i<n;i+=gap)
@@ -174,12 +174,12 @@ void shellSortCustom(vector<long long> &v, int n )
 
 void shellSort(vector<long long>&v, int n)
 {
-    for(int gap = n>>1;gap>0;gap>>=1)
+    for(long long gap = n>>1;gap>0;gap>>=1)
     {
-        for(int i=gap;i<n;i++)
+        for(long long i=gap;i<n;i++)
         {
-            int temp=v[i];
-            int j;
+            long long temp=v[i];
+            long long j;
             for( j=i;j>=gap && v[j-gap]>temp;j-=gap)
                 v[j]=v[j-gap];
             v[j]=temp;
@@ -196,7 +196,7 @@ auto timeShellSort(vector<long long>&verif,vector<long long>&v,int n,long long m
     auto stop = chrono::high_resolution_clock::now();
     if(verificare(verif,copie,n)==0)
     {
-        cout<<"eroare";
+        cout<<"eroareShellSort";
         exit(1);
     }
     auto duration = chrono::duration_cast<chrono::microseconds >(stop-start);
@@ -212,7 +212,7 @@ auto timeShellSortCustom(vector<long long>&verif,vector<long long>&v,int n,long 
     auto stop = chrono::high_resolution_clock::now();
     if(verificare(verif,copie,n)==0)
     {
-        cout<<"eroare";
+        cout<<"eroareShellSortCustom";
         exit(1);
     }
     auto duration = chrono::duration_cast<chrono::microseconds >(stop-start);
@@ -270,7 +270,7 @@ auto timeQSort(vector<long long>&verif,vector<long long>&v,int n,long long maxim
     auto stop = chrono::high_resolution_clock::now();
     if(verificare(verif,copie,n)==0)
     {
-        cout<<"eroare";
+        cout<<"eroareQSort";
         exit(1);
     }
     auto duration = chrono::duration_cast<chrono::microseconds >(stop-start);
@@ -313,7 +313,7 @@ auto timeHeapSort(vector<long long>&verif,vector<long long>&v,int n,long long ma
     auto stop = chrono::high_resolution_clock::now();
     if(verificare(verif,copie,n)==0)
     {
-        cout<<"eroare";
+        cout<<"eroareHeapSort";
         exit(1);
     }
     auto duration = chrono::duration_cast<chrono::microseconds >(stop-start);
