@@ -1,4 +1,4 @@
-## Sortings time comparison
+## Sorting Algorithmstime comparison
 Project done by Teodorescu George-Tiberiu, group 132
 
 ## Sorting algorithms used
