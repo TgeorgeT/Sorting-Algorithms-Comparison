@@ -37,5 +37,5 @@ We can see that the radix sort in base 2^16 was overtaken by the radix sort in b
 Merge sort performs worse than quick sort, which is comparable to a radix sort in base 10 for this case.
 It's also worth noticing that heap sort performs similar to the standard shell sort, but significantly worse than the shell sort using the modified gap sequence.
 
-![image]
+![image](https://github.com/TgeorgeT/SortingsComparison/blob/main/Number%20of%20Values_%2010%5E4-2_10%5E6%2C%20Max%20Value_%2010%5E6%2C%20Step_%2010%5E4.png)
 
