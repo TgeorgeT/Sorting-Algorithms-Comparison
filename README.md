@@ -24,9 +24,9 @@ It then iterates from first_value to last_value with the step given in the input
 Each sorting is tested on a copy of the generated vector, checked for correctitude and then the time is printed in the "output.csv" file.  
   
 ## Results:
+![image](https://github.com/TgeorgeT/SortingsComparison/blob/main/Number%20of%20Values_10%5E3-10%5E5%2C%20Max%20Value_%2010%5E8%2C%20Step_%2010%5E3.png)
 
 
 
 
-
-![image](https://github.com/TgeorgeT/SortingsComparison/blob/main/Number%20of%20values_%2010%5E4-2_10%5E6%2C%20Max%20Value%20%3D%2010%5E7%2C%20Step%20%3D%2010%5E4%20(1).png)
+![image](https://github.com/TgeorgeT/SortingsComparison/blob/main/Number%20of%20Values_%2010%5E4-2_10%5E6%2C%20Max%20Value_%2010%5E6%2C%20Step_%2010%5E4.png)
