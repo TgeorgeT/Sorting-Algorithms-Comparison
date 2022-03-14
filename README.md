@@ -29,8 +29,6 @@ Each sorting is tested on a copy of the generated vector, checked for correctitu
 We can see that the fastest sorting algorithm is the radix sort in base 2^16. This is a trend that will remain throughout the majorityof the tests.  
 Note that the only algorithms that should be impacted by a larger max value are the radix sorts.
 
-
-
 ![image](https://github.com/TgeorgeT/SortingsComparison/blob/main/Number%20of%20Values_%2010%5E4-2_10%5E6%2C%20Max%20Value_%2010%5E6%2C%20Step_%2010%5E4.png)
 
 We can see that the radix sort in base 2^16 was overtaken by the radix sort in base 2^8. This may be due to the fact that the max_value is lower.  
