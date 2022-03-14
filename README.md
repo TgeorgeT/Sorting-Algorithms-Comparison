@@ -37,7 +37,7 @@ It's also worth noticing that heap sort performs similar to the standard shell s
 
 [!image](https://github.com/TgeorgeT/Sorting-Algorithms-Comparison/blob/main/Number%20of%20Values_%2010%5E4-2_10%5E6%2C%20Max%20Value_%2010%5E16%2C%20Step_10%5E4.png)
 
-![image](https://github.com/TgeorgeT/SortingsComparison/blob/main/Number%20of%20Values_%2010%5E7-2.5_10%5E7%2C%20Max%20Value_%2010%5E16%2C%20Step_10%5E6.png)  
+[!image](https://github.com/TgeorgeT/SortingsComparison/blob/main/Number%20of%20Values_%2010%5E7-2.5_10%5E7%2C%20Max%20Value_%2010%5E16%2C%20Step_10%5E6.png)  
 Heap sort still performs similar to shell sort, even though its complexity is better than shell sort.  
 
 ![image](https://github.com/TgeorgeT/Sorting-Algorithms-Comparison/blob/main/Number%20of%20values_%2010%5E8%2C%20Max%20Value_10%5E16.png)
