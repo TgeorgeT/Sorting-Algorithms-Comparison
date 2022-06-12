@@ -42,5 +42,5 @@ Heap sort still performs similar to shell sort, even though its complexity is be
 
 ![image](https://github.com/TgeorgeT/Sorting-Algorithms-Comparison/blob/main/Number%20of%20values_%2010%5E8%2C%20Max%20Value_10%5E16.png)
 ## Notes
-The shell sort gap sequence use was: {  89766, 40803, 18315,8124,3611,1605,701, 301, 132, 57, 23, 10, 4, 1}
+The shell sort gap sequence used was: {  89766, 40803, 18315,8124,3611,1605,701, 301, 132, 57, 23, 10, 4, 1}
 
